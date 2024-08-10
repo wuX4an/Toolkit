@@ -3,15 +3,20 @@ import 'dart:convert';
 
 void main(List<String> args) async {
   if (args.length == 1 && args[0] == "upload") {
-    print("selec");
+    print("upload command needs an file <argument>");
   } else if (args.length >= 2 && args[0] == "upload" && args[1].isNotEmpty) {
     final file = File(args[1]);
     if (await file.exists()) {
       await uploadFile(file);
     } else {
-      print("- Error: Chose a valid file");
+      print("- Error: Chose a valid file.");
     }
   } else if (args.isEmpty) {
+    File('lib/help.txt').readAsString().then((String contents) {
+      print(contents);
+    });
+  } else if (args.length == 1 && args[0] != "upoload") {
+    print("\n- Error chose a valid command. \n");
     File('lib/help.txt').readAsString().then((String contents) {
       print(contents);
     });
