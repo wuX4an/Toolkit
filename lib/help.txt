@@ -1,0 +1,6 @@
+A command-line toolkit .
+
+Usage: tool <command> [arguments]
+
+Available commands:
+  upload    Upload file in tmpfiles.org
