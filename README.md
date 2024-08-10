@@ -20,7 +20,7 @@ $ tool upload path/to/your/file
 ```
 
 ## Instalation:
-* ### Linux: Go to packages and download the latest.
+* ### Linux: Go to [releases](https://github.com/wuX4an/Toolkit/releases) and download the latest.
 * ### Windows: Compile from source.
 * ### MacOS: Compile from source.
 
