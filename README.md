@@ -1,4 +1,10 @@
 # Toolkit
+<p align="center">
+	<a href="https://github.com/wux4an/toolkit/stargazers">
+		<img alt="Stargazers" src="https://img.shields.io/github/stars/wux4an/toolkit?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41"></a>
+	<a href="https://github.com/wux4an/toolkit/releases/latest">
+		<img alt="Releases" src="https://img.shields.io/github/release/wux4an/toolkit.svg?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&labelColor=302D41"/></a>
+</p>
 
 ## Features:
 * Uploads files specified as a command-line argument.
