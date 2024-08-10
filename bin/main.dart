@@ -48,5 +48,6 @@ Future<void> uploadFile(File file) async {
     exit(0);
   } else {
     print('Error uploading file: ${response.statusCode}');
+    exit(0);
   }
 }
